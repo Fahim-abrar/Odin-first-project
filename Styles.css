@@ -25,7 +25,7 @@ body{
 }
 .header-links a{
     text-decoration: none;
-    color: #E5E7EB;
+    color: #bdbec0;
     font-size: 18px;
     
     
@@ -43,7 +43,7 @@ body{
     
 }
 .hero-left p{
-    color: #E5E7EB;
+    color: #bdbec0;
     font-size: 18px;
 }
 .hero-text{
@@ -65,7 +65,7 @@ body{
     border: none;
     margin-top: 15px;
 }
-.mid-text{
+.info-text{
     height: 15vh;
     display: flex;
     justify-content: center;
@@ -80,9 +80,9 @@ body{
     border-radius: 8px;
 }
 .mid{
-    padding: 10px 15%;
+    padding: 10px 20%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex: 1;
     flex-wrap: wrap;
@@ -90,4 +90,22 @@ body{
 .mid-box{
     max-width: 150px;
     text-align: center;
+}
+.quote{
+    padding: 10px 20%;
+    height: 50vh;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote .writer{
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+}
+.quote .italic{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
