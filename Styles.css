@@ -27,15 +27,15 @@ body{
     text-decoration: none;
     color: #bdbec0;
     font-size: 18px;
-    
-    
 }
 .hero{
     padding: 64px 15%;
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    height: 60vh;
+    height: 70vh;
+    
+   
 }
 .hero-left{
     width: 50%;
@@ -102,10 +102,42 @@ body{
 .quote .writer{
     align-self: flex-end;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
 }
 .quote .italic{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+.action-container{
+    height: 20vh;
+    background-color: #3882F6;
+    margin: 64px 15%;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.action-button{
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 30px;
+    color: #F9FAF8;
+}
+.action-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.action-container p{
+    color: #d6d6d5;
+}
+.footer{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
